@@ -20,9 +20,10 @@ const cipher = {
       let codigoAsciiEoffset = (((codigoAscii - offset) -90) % 26) + 90
       let resultado = String.fromCharCode(codigoAsciiEoffset)
       textoDecodificado += resultado
-
-      return textoDecodificado
+    
   }
+
+  return textoDecodificado
 
   }
 }
