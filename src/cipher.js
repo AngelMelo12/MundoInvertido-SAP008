@@ -5,7 +5,7 @@ const cipher = {
   
     if(typeof offset != 'number' || typeof texto != 'string' || 
       typeof offset === 'undefined' || typeof texto === 'undefined') {
-        
+
       throw TypeError()
     }
 
@@ -24,6 +24,7 @@ const cipher = {
 
     return textoCodificado
 
+    
   },
 
   decode: function(offset, texto) {
