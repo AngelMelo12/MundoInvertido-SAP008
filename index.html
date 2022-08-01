@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="root">
+
+      <div class="titulo-artigo">
+        <h1>Envie sua mensagem para o mundo invertido!</h1>
+      </div>
+
+      <h2>Voce pode escolher enviar de forma cifrada ou decifrada.</h2>
+      <p><strong>Escolha a chave de deslocamento da sua mensagem - de 1 a 60:</strong></p>
+
+      <div class="escolha">
+        <input class="offset" type="number" min="1" max="60" placeholder="nº" name="offset" id="offset">
+      </div>
+
+      <img class="imagem" src="https://tm.ibxk.com.br/2022/05/19/19092838745032.jpg?ims=704x264" alt="Stranger Things">
+
+      <div class="escrita-botao">
+        <input class="texto" type="text" name="txtn1" id="texto1" placeholder="Digite sua mensagem">
+        <input class="botao" id="botaoCifrar" type="button" value="Cifrar" onclick="cifrar()">
+      </div>
+
+      <p id="respostaCifrada"></p>
+
+      <div class="escrita-botao">
+        <input class="texto" type="text" name="txtn2" id="texto2" placeholder="Digite sua mensagem">
+        <input class="botao" id="botaoDecifrar" type="button" value="Decifrar" onclick="decifrar()">
+      </div>
+
+      <p id="respostaDecifrada"></p>
+      
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>

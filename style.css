@@ -1,0 +1,55 @@
+
+body { 
+    background-image: url("https://i.pinimg.com/originals/aa/43/12/aa43123fae794836079128ca27a0207f.jpg");
+    background-color: darkgray;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.titulo-artigo {
+    color: rgb(164, 24, 24);
+    border: rgb(23, 23, 100);
+    font-size: 20pt;
+    font-weight: normal;
+    text-align: center;
+}
+
+.texto {
+    color: rgb(255, 255, 255);
+    background-color: rgb(153, 13, 13);
+    border-color: rgb(36, 26, 26);
+    border-radius: 10px;
+    width: 30%;
+    height: 30px;
+    font-size: 13pt;
+}
+
+.botao {
+    color:white;
+    background-color: rgb(153, 13, 13);
+    border-color: rgb(18, 16, 16);
+    border-radius: 10px;
+    height: 30px;
+    font-size: 13pt;
+}
+
+.escrita-botao {
+    margin-top: 15px;
+}
+
+.offset {
+    background-color: rgb(227, 212, 212);
+    border-color: rgb(144, 22, 22);
+    border-radius: 10px;
+    width: 5%;
+    height: 30px;
+    font-size: 15pt;
+    margin-bottom: 2%;
+}
+
+.imagem {
+    width: auto;
+    height: 240px;
+    margin-bottom: 2%;   
+}
